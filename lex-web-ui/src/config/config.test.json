@@ -1,0 +1,21 @@
+{
+  "cognito": {
+    "poolId": "us-east-1:6c5a2687-70a9-404e-9d2f-9333f4501e48"
+  },
+  "lex": {
+    "botName": "ScheduleAppointment",
+    "initialText": "You can ask me for help booking appointments. Just type \"Book an appointment\" or click on the mic and say it.",
+    "initialSpeechInstruction": "Say 'Book an appointment' to get started."
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "ui": {
+    "parentOrigin": "http://localhost:8080",
+    "pageTitle": "Bot Client for Members",
+    "toolbarTitle": "Schedule Appointments"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  }
+}

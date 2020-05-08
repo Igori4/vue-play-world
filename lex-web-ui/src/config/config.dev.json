@@ -1,0 +1,22 @@
+{
+  "cognito": {
+    "poolId": "us-east-1:a491003a-1d9b-4c7b-9d61-36ecf5d4f637"
+  },
+  "lex": {
+    "botName": "oneMinMe",
+    "botAlias": "prodBot",
+    "initialText": "",
+    "initialSpeechInstruction": ""
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "ui": {
+    "parentOrigin": "http://localhost:8080",
+    "pageTitle": "1-min Me: conversations for YOU.",
+    "toolbarTitle": "1-min Me: conversations for YOU."
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  }
+}

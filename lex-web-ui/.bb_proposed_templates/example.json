@@ -1,0 +1,98 @@
+{
+    "dialogState": "Fulfilled",
+    "intentName": "tellJoke",
+    "message": "When you have a bladder infection, urine trouble.\n\nThis text should be <b> BOLD </b>. \nThis statement should be on the next line. The link to the image is:\nhttps://thumb9.shutterstock.com/display_pic_with_logo/2772112/368321045/stock-vector-japan-flag-red-circle-have-small-hole-texture-design-in-style-of-red-stamp-red-circle-isolated-on-368321045.jpg",
+    "messageFormat": "PlainText",
+    "responseCard": {
+        "contentType": "application/vnd.amazonaws.card.generic",
+        "genericAttachments": [
+            {
+                "attachmentLinkUrl": "https://thumb9.shutterstock.com/display_pic_with_logo/2772112/368321045/stock-vector-japan-flag-red-circle-have-small-hole-texture-design-in-style-of-red-stamp-red-circle-isolated-on-368321045.jpg",
+                "buttons": null,
+                "imageUrl": null,
+                "subTitle": "just_image",
+                "title": null
+            },
+            {
+                "attachmentLinkUrl": null,
+                "buttons": [
+                    {
+                        "text": "Yes",
+                        "value": "Yes"
+                    },
+                    {
+                        "text": "No",
+                        "value": "No"
+                    }
+                ],
+                "imageUrl": null,
+                "subTitle": "Please confirm.",
+                "title": "What do you think?"
+            }
+        ],
+        "version": "1"
+    },
+    "sessionAttributes": {
+        "sessionId": "XXXXXXXXXXXXXXXXXXXXXX",
+        "render_objects": {
+            "priority": "< AFTER_RC | BEFORE_RC >",
+            "elements": [
+                {
+                    "template_type": "grid",
+                    "template_style": {
+                        "header_weight": "<BOLD | REGULAR>",
+                        "header_bg_color": "#FF0000",
+                        "header_font_color": "#000000",
+                        "odd_rows_bg_color": "#bab9b2",
+                        "even_rows_bg_color": "#bab9b2",
+                        "font_color": "#000000"
+                    },
+                    "headers": [
+                        "Name",
+                        "Date",
+                        "Time",
+                        "Comments"
+                    ],
+                    "data": [
+                        [
+                            {
+                                "text": "Jeremy Lin"
+                            },
+                            {
+                                "text": "28-12-2018"
+                            },
+                            {
+                                "text": "09:00",
+                                "value": ""
+                            },
+                            {
+                                "text": "Details",
+                                "value": "LEX_GET_DETAILS_JOHN#DOE#24"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "John Doe",
+                                "value": "https://uk.linkedin.com/pub/dir/John/Doe"
+                            },
+                            {
+                                "text": "05-01-2019",
+                                "value": "LEX_GET_DETAILS_05#01#2019"
+                            },
+                            {
+                                "text": "14:00",
+                                "value": ""
+                            },
+                            {
+                                "text": "-",
+                                "value": ""
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    },
+    "slotToElicit": null,
+    "slots": {}
+}
